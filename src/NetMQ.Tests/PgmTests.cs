@@ -21,6 +21,7 @@ namespace NetMQ.Tests
     // Note: The 224.0.0.1 is the IPv4 All Hosts multicast group which addresses all hosts on the same network segment.
 
     [TestFixture(Category = "PGM")]
+    [Ignore("Ignore PGM")]
     public class PgmTests
     {
         [Test]

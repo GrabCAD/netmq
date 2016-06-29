@@ -6,8 +6,8 @@
     <title>NetMQ4</title>
     <authors>NetMQ</authors>
     <owners>NetMQ</owners>
-    <licenseUrl>https://github.com/zeromq/netmq/blob/master/COPYING.LESSER</licenseUrl>
-    <projectUrl>https://github.com/zeromq/netmq</projectUrl>
+    <licenseUrl>https://github.com/GrabCAD/netmq/blob/master/COPYING.LESSER</licenseUrl>
+    <projectUrl>https://github.com/GrabCAD/netmq</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/zeromq/netmq/master/img/NetMQ.ico</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A 100% native C# port of the lightweight high performance messaging library ZeroMQ</description>
