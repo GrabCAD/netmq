@@ -400,6 +400,19 @@ namespace NetMQ
             m_socketHandle.Monitor(endpoint, events);
         }
 
+        /// <summary>
+        /// stop monitoring all enpoints for SocketEvent events.
+        /// </summary>
+        /// <exception cref="ObjectDisposedException">This object is already disposed.</exception>
+        /// <exception cref="TerminatingException">The socket has been stopped.</exception>
+        /// <exception cref="NetMQException">on failure to stop socket.</exception>
+        public void StopMonitor()
+        {
+            m_socketHandle.CheckDisposed();
+
+            m_socketHandle.Monitor(null, SocketEvents.All);
+        }
+
         #region Socket options
 
         /// <summary>
