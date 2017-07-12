@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
   <metadata>
-    <id>NetMQ</id>
+    <id>NetMQGC</id>
     <version>$version$</version>
-    <title>NetMQ4</title>
-    <authors>NetMQ</authors>
-    <owners>NetMQ</owners>
+    <title>NetMQ4GC</title>
+    <authors>NetMQGC</authors>
+    <owners>NetMQGC</owners>
     <licenseUrl>https://github.com/GrabCAD/netmq/blob/master/COPYING.LESSER</licenseUrl>
     <projectUrl>https://github.com/GrabCAD/netmq</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/zeromq/netmq/master/img/NetMQ.ico</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A 100% native C# port of the lightweight high performance messaging library ZeroMQ</description>
     <releaseNotes>
-      NetMQ4 is same as NetMQ without obsolete code.
+      NetMQ4GC is same as NetMQ4.0.
     </releaseNotes>
     <copyright>Copyright 2016</copyright>
     <tags>ZeroMQ 0MQ CLRZMQ NetMQ Messaging ZMQ transport distributed</tags>
